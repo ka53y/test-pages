@@ -6,6 +6,9 @@ body {
 #App {
   font-family: sans-serif;
   height: 100vh;
+  max-width: 500px;
+  margin: auto;
+  padding: 10px;
 }
 
 #page-wrap {
@@ -29,6 +32,12 @@ ul {
   text-align: center;
   list-style: none;
   
+}
+.btn2{
+  margin-left: 75px;
+}
+  .btn3{
+  margin-left: 75px;
 }
 
 .center {

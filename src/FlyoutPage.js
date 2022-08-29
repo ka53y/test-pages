@@ -12,21 +12,30 @@ const FlyOutPage = () => {
             </div>
         </div>
         <div className="center">
-        <ul>
+        <ul style={{
+        display: 'flex',
+        justifyContent: 'center',
+        alignItems: 'center'}}>
             <li><h4 style={{padding: '10px', width: '200px', height: '25px', border: '1px solid', borderRadius: '25px'}}>T/M/S Selection</h4></li>
             <li><h4 style={{padding: '10px', width: '200px', height: '25px', border: '1px solid', borderRadius: '25px'}}>Year Selection</h4></li>
             <li><h4 style={{padding: '10px', width: '200px', height: '25px', border: '1px solid', borderRadius: '25px'}}>Month Selection</h4></li>
             <li><h4 style={{padding: '10px', width: '200px', height: '25px', border: '1px solid', borderRadius: '25px'}}>Location Selection</h4></li>
         </ul>
-        <ul>
-            <input type="radio" value="To/LandSame" name="location" /> LandSame
-            <input type="radio" value="To/LandDiff" name="location" /> LandDiff
-            <input type="radio" value="International" name="location" /> International
+        <ul className="center" style={{display: "inline-block"}}>
+            <input class="btn1" type="radio" value="To/LandSame" name="location" /> LandSame
+            <input class="btn2" type="radio" value="To/LandDiff" name="location" /> LandDiff
+            <input class="btn3" type="radio" value="International" name="location" /> International
         </ul>
-        <ul>
-        <li><h4 style={{padding: '20px', width: '1000px', height: '45px', border: '1px solid'}}>Flight Selection</h4></li>
+        <ul style={{
+        display: 'flex',
+        justifyContent: 'center',
+        alignItems: 'center'}}>
+        <li><h4 style={{padding: '20px', width: '1000px', height: '45px', border: '1px solid', }}>Flight Selection</h4></li>
         </ul>
-        <ul>
+        <ul style={{
+        display: 'flex',
+        justifyContent: 'center',
+        alignItems: 'center'}}>
             <ol>
                 <li>
                 <h4 style={{padding: '20px', width: '200px', height: '25px', border: '1px solid', borderRadius: '25px'}}>Time Index</h4>
