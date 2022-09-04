@@ -14,7 +14,8 @@ function Home() {
             <NavLink
       to="/FlyOutPage"><h4 style={{padding: '50px', border: '1px solid', borderRadius: '25px'}}>Flyout Page</h4></NavLink>
             <a href="/"><h4 style={{padding: '50px', border: '1px solid', borderRadius: '25px'}}>Aircrafat Status Page</h4></a>
-            <a href="/"><h4 style={{padding: '50px', border: '1px solid', borderRadius: '25px'}}>Image Processing</h4></a>
+            <NavLink
+      to="/ImageProcessing"><h4 style={{padding: '50px', border: '1px solid', borderRadius: '25px'}}>Image Processing</h4></NavLink>
           </div>
         </div>
       </div>

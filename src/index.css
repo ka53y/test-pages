@@ -23,7 +23,11 @@ body {
   color: #d1d1d1;
   transition: color 0.2s;
 }
-
+img {
+  width: 10%;
+  height: 10%;
+  padding: 5%;
+}
 .bm-item:hover {
   color: white;
 }

@@ -7,15 +7,23 @@ const NavBar = () => {
       <a className="menu-item" href="/">
         Home
       </a>
-
-      <a className="menu-item" href="/Support">
-        Support
-      </a>
       <NavLink
       to="/FlyOutPage"
       className="menu-item">
-        Contact Us
+        Fly Out
       </NavLink>
+      <NavLink
+      to="/ImageProcessing"
+      className="menu-item">
+        Image Procesing
+      </NavLink>
+      <a className="menu-item" href="/Support">
+        Support
+      </a>
+      <a className="menu-item" href="/Support">
+        Contact Us
+      </a>
+      
     </Menu>
      );
 }
