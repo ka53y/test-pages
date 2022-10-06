@@ -9,8 +9,14 @@ body {
   max-width: 500px;
   margin: auto;
   padding: 10px;
+  background-color: #373a47;
 }
-
+h4{
+  background-color: #BFD7ED;
+}
+select {
+  background-color: #BFD7ED;
+}
 #page-wrap {
   text-align: center;
   overflow: auto;
@@ -48,7 +54,11 @@ ul {
   text-align: center;
   margin: auto;
 }
-
+.centert {
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+}
 ol {
   list-style-type: none;
 }

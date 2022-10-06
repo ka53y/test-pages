@@ -4,6 +4,8 @@ import FlyOutPage from './FlyoutPage';
 import PageNotFound from './PageNotFound';
 import ImageProcessing from "./ImageProcessing";
 import ImageReview from "./ImageReview";
+import React from 'react';
+import AircraftStatus from "./AircraftStatus";
 
 function App() {
   return (
@@ -14,6 +16,7 @@ function App() {
       <Route path="/ImageProcessing" element={<ImageProcessing />} /> 
       <Route path="/ImageReview" element={<ImageReview />} /> 
       <Route path="*" element={<PageNotFound />} />   
+      <Route path="/AircraftStatus" element={<AircraftStatus />} /> 
 
     </Routes>
     </BrowserRouter>

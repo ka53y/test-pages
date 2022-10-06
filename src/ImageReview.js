@@ -1,9 +1,7 @@
 import LogOut from "./LogOut";
 import NavBar from "./Navbar";
-import { NavLink } from "react-router-dom";
 import React, { Component } from 'react';
 export default class MultipleImageUploadComponent extends Component {
-    fileObj = [];
     fileObj = [];
     fileArray = [];
     constructor(props) {

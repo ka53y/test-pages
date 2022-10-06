@@ -16,11 +16,27 @@ const FlyOutPage = () => {
         display: 'flex',
         justifyContent: 'center',
         alignItems: 'center'}}>
-            <li><h4 style={{padding: '10px', width: '200px', height: '25px', border: '1px solid', borderRadius: '25px'}}>T/M/S Selection</h4></li>
-            <li><h4 style={{padding: '10px', width: '200px', height: '25px', border: '1px solid', borderRadius: '25px'}}>Year Selection</h4></li>
-            <li><h4 style={{padding: '10px', width: '200px', height: '25px', border: '1px solid', borderRadius: '25px'}}>Month Selection</h4></li>
-            <li><h4 style={{padding: '10px', width: '200px', height: '25px', border: '1px solid', borderRadius: '25px'}}>Location Selection</h4></li>
-        </ul>
+          <li><select style={{padding: '10px', width: '200px', height: '50px', border: '1px solid', borderRadius: '25px'}}>
+            <option value="none">T/M/S Selection</option>
+            <option value="test">test</option>
+            <option value="test">test</option>
+            </select></li>
+            <li><select style={{padding: '10px', width: '200px', height: '50px', border: '1px solid', borderRadius: '25px'}}>
+            <option value="none">Year Selection</option>
+            <option value="test">test</option>
+            <option value="test">test</option>
+            </select></li>
+            <li><select style={{padding: '10px', width: '200px', height: '50px', border: '1px solid', borderRadius: '25px'}}>
+            <option value="none">Month Selection</option>
+            <option value="test">test</option>
+            <option value="test">test</option>
+            </select></li>
+            <li><select style={{padding: '10px', width: '200px', height: '50px', border: '1px solid', borderRadius: '25px'}}>
+            <option value="none">Location Selection</option>
+            <option value="test">test</option>
+            <option value="test">test</option>
+            </select></li>
+            </ul>
         <ul className="center" style={{display: "inline-block"}}>
             <input class="btn1" type="radio" value="To/LandSame" name="location" /> LandSame
             <input class="btn2" type="radio" value="To/LandDiff" name="location" /> LandDiff

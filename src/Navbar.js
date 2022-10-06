@@ -13,6 +13,11 @@ const NavBar = () => {
         Fly Out
       </NavLink>
       <NavLink
+      to="/AircraftStatus"
+      className="menu-item">
+        Aircraft Status
+      </NavLink>
+      <NavLink
       to="/ImageProcessing"
       className="menu-item">
         Image Procesing

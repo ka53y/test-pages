@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import NavBar from './Navbar';
 import LogOut from './LogOut';
 import { NavLink } from 'react-router-dom';
-import Popup from 'reactjs-popup';
 import 'reactjs-popup/dist/index.css';
 
 export default class MultipleImageUploadComponent extends Component {
